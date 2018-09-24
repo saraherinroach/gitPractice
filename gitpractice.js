@@ -1,4 +1,8 @@
-let sayHello = () => {
-  console.log('Hello!!')
+let sayHello = (name) => {
+  if (name) {
+  console.log(`Hello, ${name}!!`)
+  } else {
+    console.log('Hello!!')
+  }
 }
 
